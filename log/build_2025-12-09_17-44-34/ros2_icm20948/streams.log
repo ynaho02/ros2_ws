@@ -1,0 +1,21 @@
+[9.157s] Invoking command in '/home/insa/ros2_ws/src/ros2_icm20948': PYTHONPATH=/home/insa/ros2_ws/build/ros2_icm20948/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/insa/ros2_ws/install/ros2_icm20948/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_icm20948 build --build-base /home/insa/ros2_ws/build/ros2_icm20948/build install --record /home/insa/ros2_ws/build/ros2_icm20948/install.log --single-version-externally-managed install_data
+[11.655s] running egg_info
+[11.662s] writing ../../build/ros2_icm20948/ros2_icm20948.egg-info/PKG-INFO
+[11.666s] writing dependency_links to ../../build/ros2_icm20948/ros2_icm20948.egg-info/dependency_links.txt
+[11.669s] writing entry points to ../../build/ros2_icm20948/ros2_icm20948.egg-info/entry_points.txt
+[11.671s] writing requirements to ../../build/ros2_icm20948/ros2_icm20948.egg-info/requires.txt
+[11.674s] writing top-level names to ../../build/ros2_icm20948/ros2_icm20948.egg-info/top_level.txt
+[11.693s] reading manifest file '../../build/ros2_icm20948/ros2_icm20948.egg-info/SOURCES.txt'
+[11.700s] writing manifest file '../../build/ros2_icm20948/ros2_icm20948.egg-info/SOURCES.txt'
+[11.702s] running build
+[11.704s] running build_py
+[11.717s] running install
+[11.721s] running install_lib
+[11.731s] running install_data
+[11.741s] running install_egg_info
+[11.762s] removing '/home/insa/ros2_ws/install/ros2_icm20948/lib/python3.10/site-packages/ros2_icm20948-0.0.1-py3.10.egg-info' (and everything under it)
+[11.766s] Copying ../../build/ros2_icm20948/ros2_icm20948.egg-info to /home/insa/ros2_ws/install/ros2_icm20948/lib/python3.10/site-packages/ros2_icm20948-0.0.1-py3.10.egg-info
+[11.780s] running install_scripts
+[11.916s] Installing icm20948_node script to /home/insa/ros2_ws/install/ros2_icm20948/lib/ros2_icm20948
+[11.920s] writing list of installed files to '/home/insa/ros2_ws/build/ros2_icm20948/install.log'
+[12.181s] Invoked command in '/home/insa/ros2_ws/src/ros2_icm20948' returned '0': PYTHONPATH=/home/insa/ros2_ws/build/ros2_icm20948/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/insa/ros2_ws/install/ros2_icm20948/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_icm20948 build --build-base /home/insa/ros2_ws/build/ros2_icm20948/build install --record /home/insa/ros2_ws/build/ros2_icm20948/install.log --single-version-externally-managed install_data

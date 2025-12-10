@@ -1,0 +1,328 @@
+[0.000000] (-) TimerEvent: {}
+[0.001336] (ldlidar_ros2) JobQueued: {'identifier': 'ldlidar_ros2', 'dependencies': OrderedDict()}
+[0.001707] (projet_siot) JobQueued: {'identifier': 'projet_siot', 'dependencies': OrderedDict()}
+[0.002084] (ros2_icm20948) JobQueued: {'identifier': 'ros2_icm20948', 'dependencies': OrderedDict()}
+[0.002310] (ldlidar_ros2) JobStarted: {'identifier': 'ldlidar_ros2'}
+[0.086082] (projet_siot) JobStarted: {'identifier': 'projet_siot'}
+[0.097657] (-) TimerEvent: {}
+[0.162277] (ros2_icm20948) JobStarted: {'identifier': 'ros2_icm20948'}
+[0.199389] (-) TimerEvent: {}
+[0.259760] (ldlidar_ros2) JobProgress: {'identifier': 'ldlidar_ros2', 'progress': 'cmake'}
+[0.266660] (ldlidar_ros2) JobProgress: {'identifier': 'ldlidar_ros2', 'progress': 'build'}
+[0.284012] (ldlidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/insa/ros2_ws/build/ldlidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/insa/ros2_ws/build/ldlidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'insa'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/insa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2548'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/insa/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'insa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'insa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/insa:@/tmp/.ICE-unix/1646,unix/insa:/tmp/.ICE-unix/1646'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/471a3cc0_6f1b_4d5c_b9a5_1312bf468eb5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0MHEH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/insa/ros2_ws/install/ros2_icm20948:/home/insa/ros2_ws/install/projet_siot:/home/insa/ros2_ws/install/ldlidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/insa/ros2_ws/build/ldlidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/insa/ros2_ws/install/ros2_icm20948/lib/python3.10/site-packages:/home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/insa/ros2_ws/install/ldlidar_ros2:/home/insa/ros2_ws/install/ros2_icm20948:/home/insa/ros2_ws/install/projet_siot:/opt/ros/humble')]), 'shell': False}
+[0.306378] (-) TimerEvent: {}
+[0.409234] (-) TimerEvent: {}
+[0.513726] (-) TimerEvent: {}
+[0.624139] (-) TimerEvent: {}
+[0.726533] (-) TimerEvent: {}
+[0.827890] (-) TimerEvent: {}
+[0.938292] (-) TimerEvent: {}
+[1.040662] (-) TimerEvent: {}
+[1.142134] (-) TimerEvent: {}
+[1.243247] (-) TimerEvent: {}
+[1.344762] (-) TimerEvent: {}
+[1.446040] (-) TimerEvent: {}
+[1.547708] (-) TimerEvent: {}
+[1.648801] (-) TimerEvent: {}
+[1.749948] (-) TimerEvent: {}
+[1.851131] (-) TimerEvent: {}
+[1.952666] (-) TimerEvent: {}
+[2.054602] (-) TimerEvent: {}
+[2.156140] (-) TimerEvent: {}
+[2.258678] (-) TimerEvent: {}
+[2.359933] (-) TimerEvent: {}
+[2.461329] (-) TimerEvent: {}
+[2.577463] (-) TimerEvent: {}
+[2.679540] (-) TimerEvent: {}
+[2.780834] (-) TimerEvent: {}
+[2.882519] (-) TimerEvent: {}
+[2.983610] (-) TimerEvent: {}
+[3.084774] (-) TimerEvent: {}
+[3.189338] (-) TimerEvent: {}
+[3.297259] (-) TimerEvent: {}
+[3.401349] (-) TimerEvent: {}
+[3.502450] (-) TimerEvent: {}
+[3.603689] (-) TimerEvent: {}
+[3.704827] (-) TimerEvent: {}
+[3.805927] (-) TimerEvent: {}
+[3.907353] (-) TimerEvent: {}
+[4.008541] (-) TimerEvent: {}
+[4.110456] (-) TimerEvent: {}
+[4.211634] (-) TimerEvent: {}
+[4.312983] (-) TimerEvent: {}
+[4.415605] (-) TimerEvent: {}
+[4.517752] (-) TimerEvent: {}
+[4.627892] (-) TimerEvent: {}
+[4.634523] (ldlidar_ros2) StdoutLine: {'line': b'[ 84%] Built target ldlidar_driver\n'}
+[4.636754] (ldlidar_ros2) StdoutLine: {'line': b'[100%] Built target ldlidar_ros2_node\n'}
+[4.728226] (-) TimerEvent: {}
+[4.831212] (-) TimerEvent: {}
+[4.934369] (-) TimerEvent: {}
+[5.036448] (-) TimerEvent: {}
+[5.138451] (-) TimerEvent: {}
+[5.240900] (-) TimerEvent: {}
+[5.345388] (-) TimerEvent: {}
+[5.447122] (-) TimerEvent: {}
+[5.548918] (-) TimerEvent: {}
+[5.650048] (-) TimerEvent: {}
+[5.751111] (-) TimerEvent: {}
+[5.852118] (-) TimerEvent: {}
+[5.953128] (-) TimerEvent: {}
+[6.054133] (-) TimerEvent: {}
+[6.155090] (-) TimerEvent: {}
+[6.256230] (-) TimerEvent: {}
+[6.357276] (-) TimerEvent: {}
+[6.458308] (-) TimerEvent: {}
+[6.559283] (-) TimerEvent: {}
+[6.660224] (-) TimerEvent: {}
+[6.761293] (-) TimerEvent: {}
+[6.862499] (-) TimerEvent: {}
+[6.963560] (-) TimerEvent: {}
+[7.064668] (-) TimerEvent: {}
+[7.166780] (-) TimerEvent: {}
+[7.267821] (-) TimerEvent: {}
+[7.368842] (-) TimerEvent: {}
+[7.470103] (-) TimerEvent: {}
+[7.571944] (-) TimerEvent: {}
+[7.674121] (-) TimerEvent: {}
+[7.775504] (-) TimerEvent: {}
+[7.876542] (-) TimerEvent: {}
+[7.979073] (-) TimerEvent: {}
+[8.080432] (-) TimerEvent: {}
+[8.182038] (-) TimerEvent: {}
+[8.284064] (-) TimerEvent: {}
+[8.385420] (-) TimerEvent: {}
+[8.488256] (-) TimerEvent: {}
+[8.597898] (-) TimerEvent: {}
+[8.701487] (-) TimerEvent: {}
+[8.806767] (-) TimerEvent: {}
+[8.893889] (ldlidar_ros2) CommandEnded: {'returncode': 0}
+[8.896703] (ldlidar_ros2) JobProgress: {'identifier': 'ldlidar_ros2', 'progress': 'install'}
+[8.910699] (-) TimerEvent: {}
+[9.014063] (-) TimerEvent: {}
+[9.033129] (ldlidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/insa/ros2_ws/build/ldlidar_ros2'], 'cwd': '/home/insa/ros2_ws/build/ldlidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'insa'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/insa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2548'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/insa/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'insa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'insa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/insa:@/tmp/.ICE-unix/1646,unix/insa:/tmp/.ICE-unix/1646'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/471a3cc0_6f1b_4d5c_b9a5_1312bf468eb5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0MHEH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/insa/ros2_ws/install/ros2_icm20948:/home/insa/ros2_ws/install/projet_siot:/home/insa/ros2_ws/install/ldlidar_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/insa/ros2_ws/build/ldlidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/insa/ros2_ws/install/ros2_icm20948/lib/python3.10/site-packages:/home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/insa/ros2_ws/install/ldlidar_ros2:/home/insa/ros2_ws/install/ros2_icm20948:/home/insa/ros2_ws/install/projet_siot:/opt/ros/humble')]), 'shell': False}
+[9.125869] (-) TimerEvent: {}
+[9.154302] (ldlidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.159657] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/lib/ldlidar_ros2/ldlidar_ros2_node\n'}
+[9.163764] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch\n'}
+[9.166355] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld06.launch.py\n'}
+[9.168077] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld14p.launch.py\n'}
+[9.186410] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld14.launch.py\n'}
+[9.194461] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld14.launch.py\n'}
+[9.196717] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld19.launch.py\n'}
+[9.198540] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld14p.launch.py\n'}
+[9.200355] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld19.launch.py\n'}
+[9.207379] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld06.launch.py\n'}
+[9.214933] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//rviz2\n'}
+[9.224936] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//rviz2/ldlidar.rviz\n'}
+[9.227593] (-) TimerEvent: {}
+[9.231099] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts\n'}
+[9.232346] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/ldlidar.rules\n'}
+[9.240932] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/create_udev_rules.sh\n'}
+[9.243107] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/delete_udev_rules.sh\n'}
+[9.248980] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_ros2\n'}
+[9.250600] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_ros2\n'}
+[9.251437] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/ament_prefix_path.sh\n'}
+[9.259541] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/ament_prefix_path.dsv\n'}
+[9.260634] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/path.sh\n'}
+[9.263411] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/path.dsv\n'}
+[9.264143] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.bash\n'}
+[9.264626] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.sh\n'}
+[9.269369] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.zsh\n'}
+[9.270331] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.dsv\n'}
+[9.271133] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.dsv\n'}
+[9.279527] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ament_index/resource_index/packages/ldlidar_ros2\n'}
+[9.280291] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/cmake/ldlidar_ros2Config.cmake\n'}
+[9.280826] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/cmake/ldlidar_ros2Config-version.cmake\n'}
+[9.284270] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.xml\n'}
+[9.370008] (ldlidar_ros2) CommandEnded: {'returncode': 0}
+[9.372308] (-) TimerEvent: {}
+[9.478584] (-) TimerEvent: {}
+[9.584962] (-) TimerEvent: {}
+[9.692554] (-) TimerEvent: {}
+[9.805429] (-) TimerEvent: {}
+[9.882982] (ldlidar_ros2) JobEnded: {'identifier': 'ldlidar_ros2', 'rc': 0}
+[9.909719] (-) TimerEvent: {}
+[10.012557] (-) TimerEvent: {}
+[10.142045] (-) TimerEvent: {}
+[10.243057] (-) TimerEvent: {}
+[10.344106] (-) TimerEvent: {}
+[10.445257] (-) TimerEvent: {}
+[10.549317] (-) TimerEvent: {}
+[10.650848] (-) TimerEvent: {}
+[10.753377] (-) TimerEvent: {}
+[10.858857] (-) TimerEvent: {}
+[10.961266] (-) TimerEvent: {}
+[11.065484] (-) TimerEvent: {}
+[11.167576] (-) TimerEvent: {}
+[11.270897] (-) TimerEvent: {}
+[11.385213] (-) TimerEvent: {}
+[11.489220] (-) TimerEvent: {}
+[11.591920] (-) TimerEvent: {}
+[11.692986] (-) TimerEvent: {}
+[11.795780] (-) TimerEvent: {}
+[11.896919] (-) TimerEvent: {}
+[12.002012] (-) TimerEvent: {}
+[12.105373] (-) TimerEvent: {}
+[12.207810] (-) TimerEvent: {}
+[12.312348] (-) TimerEvent: {}
+[12.413509] (-) TimerEvent: {}
+[12.515531] (-) TimerEvent: {}
+[12.621264] (-) TimerEvent: {}
+[12.727098] (-) TimerEvent: {}
+[12.832656] (-) TimerEvent: {}
+[12.934339] (-) TimerEvent: {}
+[13.035368] (-) TimerEvent: {}
+[13.136520] (-) TimerEvent: {}
+[13.237848] (-) TimerEvent: {}
+[13.339217] (-) TimerEvent: {}
+[13.440786] (-) TimerEvent: {}
+[13.542936] (-) TimerEvent: {}
+[13.646565] (-) TimerEvent: {}
+[13.748622] (-) TimerEvent: {}
+[13.850821] (-) TimerEvent: {}
+[13.954307] (-) TimerEvent: {}
+[14.056301] (-) TimerEvent: {}
+[14.158570] (-) TimerEvent: {}
+[14.261357] (-) TimerEvent: {}
+[14.362451] (-) TimerEvent: {}
+[14.465506] (-) TimerEvent: {}
+[14.567912] (-) TimerEvent: {}
+[14.669171] (-) TimerEvent: {}
+[14.770298] (-) TimerEvent: {}
+[14.876694] (-) TimerEvent: {}
+[14.982649] (-) TimerEvent: {}
+[15.084800] (-) TimerEvent: {}
+[15.186408] (-) TimerEvent: {}
+[15.288662] (-) TimerEvent: {}
+[15.392531] (-) TimerEvent: {}
+[15.501008] (-) TimerEvent: {}
+[15.602600] (-) TimerEvent: {}
+[15.704533] (-) TimerEvent: {}
+[15.805628] (-) TimerEvent: {}
+[15.907792] (-) TimerEvent: {}
+[16.009773] (-) TimerEvent: {}
+[16.113402] (-) TimerEvent: {}
+[16.169892] (projet_siot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/projet_siot', 'build', '--build-base', '/home/insa/ros2_ws/build/projet_siot/build', 'install', '--record', '/home/insa/ros2_ws/build/projet_siot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/insa/ros2_ws/src/projet_siot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'insa', 'LC_TIME': 'fr_FR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/insa', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'fr_FR.UTF-8', 'SYSTEMD_EXEC_PID': '2548', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/insa/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'insa', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'insa', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/insa:@/tmp/.ICE-unix/1646,unix/insa:/tmp/.ICE-unix/1646', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'fr_FR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/471a3cc0_6f1b_4d5c_b9a5_1312bf468eb5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'fr_FR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0MHEH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/insa/ros2_ws/install/ros2_icm20948:/home/insa/ros2_ws/install/projet_siot:/home/insa/ros2_ws/install/ldlidar_ros2:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'fr_FR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fr_FR.UTF-8', 'LC_IDENTIFICATION': 'fr_FR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/insa/ros2_ws/build/projet_siot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/insa/ros2_ws/build/projet_siot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages:/home/insa/ros2_ws/install/ros2_icm20948/lib/python3.10/site-packages:/home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'fr_FR.UTF-8', 'LC_PAPER': 'fr_FR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/insa/ros2_ws/install/ldlidar_ros2'}, 'shell': False}
+[16.216289] (-) TimerEvent: {}
+[16.317574] (-) TimerEvent: {}
+[16.419101] (-) TimerEvent: {}
+[16.528501] (-) TimerEvent: {}
+[16.633240] (-) TimerEvent: {}
+[16.742464] (-) TimerEvent: {}
+[16.846770] (-) TimerEvent: {}
+[16.948897] (-) TimerEvent: {}
+[17.051846] (-) TimerEvent: {}
+[17.058004] (ros2_icm20948) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_icm20948', 'build', '--build-base', '/home/insa/ros2_ws/build/ros2_icm20948/build', 'install', '--record', '/home/insa/ros2_ws/build/ros2_icm20948/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/insa/ros2_ws/src/ros2_icm20948', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'insa', 'LC_TIME': 'fr_FR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/insa', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'fr_FR.UTF-8', 'SYSTEMD_EXEC_PID': '2548', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/insa/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'insa', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'insa', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/insa:@/tmp/.ICE-unix/1646,unix/insa:/tmp/.ICE-unix/1646', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'fr_FR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/471a3cc0_6f1b_4d5c_b9a5_1312bf468eb5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'fr_FR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0MHEH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/insa/ros2_ws/install/ros2_icm20948:/home/insa/ros2_ws/install/projet_siot:/home/insa/ros2_ws/install/ldlidar_ros2:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'fr_FR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fr_FR.UTF-8', 'LC_IDENTIFICATION': 'fr_FR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/insa/ros2_ws/build/ros2_icm20948', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/insa/ros2_ws/build/ros2_icm20948/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/insa/ros2_ws/install/ros2_icm20948/lib/python3.10/site-packages:/home/insa/ros2_ws/install/ros2_icm20948/lib/python3.10/site-packages:/home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'fr_FR.UTF-8', 'LC_PAPER': 'fr_FR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/insa/ros2_ws/install/ldlidar_ros2'}, 'shell': False}
+[17.152347] (-) TimerEvent: {}
+[17.256386] (-) TimerEvent: {}
+[17.364456] (-) TimerEvent: {}
+[17.466837] (-) TimerEvent: {}
+[17.573271] (-) TimerEvent: {}
+[17.674416] (-) TimerEvent: {}
+[17.775514] (-) TimerEvent: {}
+[17.876574] (-) TimerEvent: {}
+[17.985291] (-) TimerEvent: {}
+[18.087444] (-) TimerEvent: {}
+[18.205810] (-) TimerEvent: {}
+[18.307268] (-) TimerEvent: {}
+[18.410014] (-) TimerEvent: {}
+[18.511199] (-) TimerEvent: {}
+[18.613645] (-) TimerEvent: {}
+[18.714824] (-) TimerEvent: {}
+[18.816385] (-) TimerEvent: {}
+[18.917701] (-) TimerEvent: {}
+[19.018858] (-) TimerEvent: {}
+[19.121326] (-) TimerEvent: {}
+[19.225403] (-) TimerEvent: {}
+[19.329323] (-) TimerEvent: {}
+[19.433291] (-) TimerEvent: {}
+[19.534208] (-) TimerEvent: {}
+[19.635442] (-) TimerEvent: {}
+[19.737557] (-) TimerEvent: {}
+[19.845358] (-) TimerEvent: {}
+[19.949821] (-) TimerEvent: {}
+[20.053280] (-) TimerEvent: {}
+[20.154446] (-) TimerEvent: {}
+[20.255895] (-) TimerEvent: {}
+[20.360565] (-) TimerEvent: {}
+[20.465495] (-) TimerEvent: {}
+[20.569535] (-) TimerEvent: {}
+[20.673131] (-) TimerEvent: {}
+[20.783963] (-) TimerEvent: {}
+[20.885270] (-) TimerEvent: {}
+[20.987569] (-) TimerEvent: {}
+[21.088614] (-) TimerEvent: {}
+[21.190899] (-) TimerEvent: {}
+[21.293190] (-) TimerEvent: {}
+[21.395299] (-) TimerEvent: {}
+[21.496449] (-) TimerEvent: {}
+[21.613309] (-) TimerEvent: {}
+[21.717358] (-) TimerEvent: {}
+[21.821424] (-) TimerEvent: {}
+[21.919484] (projet_siot) StdoutLine: {'line': b'running egg_info\n'}
+[21.923772] (-) TimerEvent: {}
+[21.935223] (projet_siot) StdoutLine: {'line': b'writing ../../build/projet_siot/projet_siot.egg-info/PKG-INFO\n'}
+[21.943758] (projet_siot) StdoutLine: {'line': b'writing dependency_links to ../../build/projet_siot/projet_siot.egg-info/dependency_links.txt\n'}
+[21.944424] (projet_siot) StdoutLine: {'line': b'writing entry points to ../../build/projet_siot/projet_siot.egg-info/entry_points.txt\n'}
+[21.944986] (projet_siot) StdoutLine: {'line': b'writing requirements to ../../build/projet_siot/projet_siot.egg-info/requires.txt\n'}
+[21.945636] (projet_siot) StdoutLine: {'line': b'writing top-level names to ../../build/projet_siot/projet_siot.egg-info/top_level.txt\n'}
+[21.979550] (projet_siot) StdoutLine: {'line': b"reading manifest file '../../build/projet_siot/projet_siot.egg-info/SOURCES.txt'\n"}
+[22.024023] (-) TimerEvent: {}
+[22.025351] (projet_siot) StdoutLine: {'line': b"writing manifest file '../../build/projet_siot/projet_siot.egg-info/SOURCES.txt'\n"}
+[22.045527] (projet_siot) StdoutLine: {'line': b'running build\n'}
+[22.046600] (projet_siot) StdoutLine: {'line': b'running build_py\n'}
+[22.053798] (projet_siot) StdoutLine: {'line': b'running install\n'}
+[22.054694] (projet_siot) StdoutLine: {'line': b'running install_lib\n'}
+[22.067775] (projet_siot) StdoutLine: {'line': b'running install_data\n'}
+[22.072122] (projet_siot) StdoutLine: {'line': b'running install_egg_info\n'}
+[22.125277] (-) TimerEvent: {}
+[22.140008] (projet_siot) StdoutLine: {'line': b"removing '/home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages/projet_siot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[22.177264] (projet_siot) StdoutLine: {'line': b'Copying ../../build/projet_siot/projet_siot.egg-info to /home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages/projet_siot-0.0.0-py3.10.egg-info\n'}
+[22.183696] (projet_siot) StdoutLine: {'line': b'running install_scripts\n'}
+[22.226816] (-) TimerEvent: {}
+[22.330486] (-) TimerEvent: {}
+[22.432922] (-) TimerEvent: {}
+[22.537279] (-) TimerEvent: {}
+[22.584402] (projet_siot) StdoutLine: {'line': b'Installing lidar_data_processing script to /home/insa/ros2_ws/install/projet_siot/lib/projet_siot\n'}
+[22.603753] (projet_siot) StdoutLine: {'line': b"writing list of installed files to '/home/insa/ros2_ws/build/projet_siot/install.log'\n"}
+[22.641438] (-) TimerEvent: {}
+[22.744108] (-) TimerEvent: {}
+[22.849290] (-) TimerEvent: {}
+[22.950695] (-) TimerEvent: {}
+[23.008778] (projet_siot) CommandEnded: {'returncode': 0}
+[23.056222] (-) TimerEvent: {}
+[23.157876] (-) TimerEvent: {}
+[23.170752] (projet_siot) JobEnded: {'identifier': 'projet_siot', 'rc': 0}
+[23.258061] (-) TimerEvent: {}
+[23.358996] (-) TimerEvent: {}
+[23.373574] (ros2_icm20948) StdoutLine: {'line': b'running egg_info\n'}
+[23.381826] (ros2_icm20948) StdoutLine: {'line': b'writing ../../build/ros2_icm20948/ros2_icm20948.egg-info/PKG-INFO\n'}
+[23.388642] (ros2_icm20948) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_icm20948/ros2_icm20948.egg-info/dependency_links.txt\n'}
+[23.391906] (ros2_icm20948) StdoutLine: {'line': b'writing entry points to ../../build/ros2_icm20948/ros2_icm20948.egg-info/entry_points.txt\n'}
+[23.398844] (ros2_icm20948) StdoutLine: {'line': b'writing requirements to ../../build/ros2_icm20948/ros2_icm20948.egg-info/requires.txt\n'}
+[23.401227] (ros2_icm20948) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_icm20948/ros2_icm20948.egg-info/top_level.txt\n'}
+[23.429127] (ros2_icm20948) StdoutLine: {'line': b"reading manifest file '../../build/ros2_icm20948/ros2_icm20948.egg-info/SOURCES.txt'\n"}
+[23.438599] (ros2_icm20948) StdoutLine: {'line': b"writing manifest file '../../build/ros2_icm20948/ros2_icm20948.egg-info/SOURCES.txt'\n"}
+[23.457160] (ros2_icm20948) StdoutLine: {'line': b'running build\n'}
+[23.458498] (ros2_icm20948) StdoutLine: {'line': b'running build_py\n'}
+[23.459831] (-) TimerEvent: {}
+[23.465364] (ros2_icm20948) StdoutLine: {'line': b'running install\n'}
+[23.471905] (ros2_icm20948) StdoutLine: {'line': b'running install_lib\n'}
+[23.477809] (ros2_icm20948) StdoutLine: {'line': b'running install_data\n'}
+[23.479738] (ros2_icm20948) StdoutLine: {'line': b'copying launch/imu_localization_launch.py -> /home/insa/ros2_ws/install/ros2_icm20948/share/ros2_icm20948\n'}
+[23.481196] (ros2_icm20948) StdoutLine: {'line': b'running install_egg_info\n'}
+[23.499325] (ros2_icm20948) StdoutLine: {'line': b"removing '/home/insa/ros2_ws/install/ros2_icm20948/lib/python3.10/site-packages/ros2_icm20948-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[23.502637] (ros2_icm20948) StdoutLine: {'line': b'Copying ../../build/ros2_icm20948/ros2_icm20948.egg-info to /home/insa/ros2_ws/install/ros2_icm20948/lib/python3.10/site-packages/ros2_icm20948-0.0.1-py3.10.egg-info\n'}
+[23.520671] (ros2_icm20948) StdoutLine: {'line': b'running install_scripts\n'}
+[23.561759] (-) TimerEvent: {}
+[23.664506] (-) TimerEvent: {}
+[23.727343] (ros2_icm20948) StdoutLine: {'line': b'Installing icm20948_node script to /home/insa/ros2_ws/install/ros2_icm20948/lib/ros2_icm20948\n'}
+[23.731582] (ros2_icm20948) StdoutLine: {'line': b"writing list of installed files to '/home/insa/ros2_ws/build/ros2_icm20948/install.log'\n"}
+[23.764987] (-) TimerEvent: {}
+[23.867163] (-) TimerEvent: {}
+[23.969899] (-) TimerEvent: {}
+[24.053741] (ros2_icm20948) CommandEnded: {'returncode': 0}
+[24.087066] (-) TimerEvent: {}
+[24.152196] (ros2_icm20948) JobEnded: {'identifier': 'ros2_icm20948', 'rc': 0}
+[24.162355] (-) EventReactorShutdown: {}

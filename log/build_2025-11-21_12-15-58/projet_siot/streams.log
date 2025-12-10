@@ -1,0 +1,37 @@
+[3.350s] Invoking command in '/home/insa/ros2_ws/src/projet_siot': PYTHONPATH=/home/insa/ros2_ws/build/projet_siot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/projet_siot build --build-base /home/insa/ros2_ws/build/projet_siot/build install --record /home/insa/ros2_ws/build/projet_siot/install.log --single-version-externally-managed install_data
+[4.615s] running egg_info
+[4.617s] creating ../../build/projet_siot/projet_siot.egg-info
+[4.618s] writing ../../build/projet_siot/projet_siot.egg-info/PKG-INFO
+[4.619s] writing dependency_links to ../../build/projet_siot/projet_siot.egg-info/dependency_links.txt
+[4.619s] writing entry points to ../../build/projet_siot/projet_siot.egg-info/entry_points.txt
+[4.620s] writing requirements to ../../build/projet_siot/projet_siot.egg-info/requires.txt
+[4.621s] writing top-level names to ../../build/projet_siot/projet_siot.egg-info/top_level.txt
+[4.622s] writing manifest file '../../build/projet_siot/projet_siot.egg-info/SOURCES.txt'
+[4.635s] reading manifest file '../../build/projet_siot/projet_siot.egg-info/SOURCES.txt'
+[4.640s] writing manifest file '../../build/projet_siot/projet_siot.egg-info/SOURCES.txt'
+[4.640s] running build
+[4.642s] running build_py
+[4.643s] creating /home/insa/ros2_ws/build/projet_siot/build
+[4.644s] creating /home/insa/ros2_ws/build/projet_siot/build/lib
+[4.644s] creating /home/insa/ros2_ws/build/projet_siot/build/lib/projet_siot
+[4.644s] copying projet_siot/__init__.py -> /home/insa/ros2_ws/build/projet_siot/build/lib/projet_siot
+[4.645s] copying projet_siot/lidar_data_processing.py -> /home/insa/ros2_ws/build/projet_siot/build/lib/projet_siot
+[4.646s] running install
+[4.647s] running install_lib
+[4.650s] creating /home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages/projet_siot
+[4.651s] copying /home/insa/ros2_ws/build/projet_siot/build/lib/projet_siot/__init__.py -> /home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages/projet_siot
+[4.651s] copying /home/insa/ros2_ws/build/projet_siot/build/lib/projet_siot/lidar_data_processing.py -> /home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages/projet_siot
+[4.655s] byte-compiling /home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages/projet_siot/__init__.py to __init__.cpython-310.pyc
+[4.656s] byte-compiling /home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages/projet_siot/lidar_data_processing.py to lidar_data_processing.cpython-310.pyc
+[4.658s] running install_data
+[4.659s] creating /home/insa/ros2_ws/install/projet_siot/share/ament_index
+[4.659s] creating /home/insa/ros2_ws/install/projet_siot/share/ament_index/resource_index
+[4.660s] creating /home/insa/ros2_ws/install/projet_siot/share/ament_index/resource_index/packages
+[4.660s] copying resource/projet_siot -> /home/insa/ros2_ws/install/projet_siot/share/ament_index/resource_index/packages
+[4.661s] copying package.xml -> /home/insa/ros2_ws/install/projet_siot/share/projet_siot
+[4.661s] running install_egg_info
+[4.669s] Copying ../../build/projet_siot/projet_siot.egg-info to /home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages/projet_siot-0.0.0-py3.10.egg-info
+[4.675s] running install_scripts
+[4.760s] Installing lidar_data_processing script to /home/insa/ros2_ws/install/projet_siot/lib/projet_siot
+[4.762s] writing list of installed files to '/home/insa/ros2_ws/build/projet_siot/install.log'
+[4.894s] Invoked command in '/home/insa/ros2_ws/src/projet_siot' returned '0': PYTHONPATH=/home/insa/ros2_ws/build/projet_siot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/projet_siot build --build-base /home/insa/ros2_ws/build/projet_siot/build install --record /home/insa/ros2_ws/build/projet_siot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,283 @@
+[1.015s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.016s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffaa726080>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffaa8cf010>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffaa8cf010>>, mixin_verb=('build',))
+[2.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.806s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.810s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.810s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/insa/ros2_ws'
+[2.812s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.816s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.816s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.816s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.817s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.906s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.906s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.912s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_ros2) by extension 'ignore'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_ros2) by extension 'ignore_ament_install'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_ros2) by extensions ['colcon_pkg']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_ros2) by extension 'colcon_pkg'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_ros2) by extensions ['colcon_meta']
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_ros2) by extension 'colcon_meta'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_ros2) by extensions ['ros']
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/ldlidar_ros2) by extension 'ros'
+[2.952s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ldlidar_ros2' with type 'ros.ament_cmake' and name 'ldlidar_ros2'
+[2.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam) by extensions ['ignore', 'ignore_ament_install']
+[2.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam) by extension 'ignore'
+[2.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam) by extension 'ignore_ament_install'
+[2.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam) by extensions ['colcon_pkg']
+[2.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam) by extension 'colcon_pkg'
+[2.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam) by extensions ['colcon_meta']
+[2.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam) by extension 'colcon_meta'
+[2.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam) by extensions ['ros']
+[2.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam) by extension 'ros'
+[2.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam) by extensions ['cmake', 'python']
+[2.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam) by extension 'cmake'
+[2.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam) by extension 'python'
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam) by extensions ['python_setup_py']
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam) by extension 'python_setup_py'
+[2.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch) by extensions ['ignore', 'ignore_ament_install']
+[2.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch) by extension 'ignore'
+[2.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch) by extension 'ignore_ament_install'
+[2.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch) by extensions ['colcon_pkg']
+[2.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch) by extension 'colcon_pkg'
+[2.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch) by extensions ['colcon_meta']
+[2.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch) by extension 'colcon_meta'
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch) by extensions ['ros']
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch) by extension 'ros'
+[2.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch) by extensions ['cmake', 'python']
+[2.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch) by extension 'cmake'
+[2.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch) by extension 'python'
+[2.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch) by extensions ['python_setup_py']
+[2.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch) by extension 'python_setup_py'
+[2.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch/__pycache__) by extension 'ignore'
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch/__pycache__) by extension 'ignore_ament_install'
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch/__pycache__) by extensions ['colcon_pkg']
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch/__pycache__) by extension 'colcon_pkg'
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch/__pycache__) by extensions ['colcon_meta']
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch/__pycache__) by extension 'colcon_meta'
+[2.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch/__pycache__) by extensions ['ros']
+[2.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch/__pycache__) by extension 'ros'
+[2.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch/__pycache__) by extensions ['cmake', 'python']
+[2.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch/__pycache__) by extension 'cmake'
+[2.982s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch/__pycache__) by extension 'python'
+[2.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch/__pycache__) by extensions ['python_setup_py']
+[2.983s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_slam/launch/__pycache__) by extension 'python_setup_py'
+[2.984s] Level 1:colcon.colcon_core.package_identification:_identify(src/projet_siot) by extensions ['ignore', 'ignore_ament_install']
+[2.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/projet_siot) by extension 'ignore'
+[2.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/projet_siot) by extension 'ignore_ament_install'
+[2.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/projet_siot) by extensions ['colcon_pkg']
+[2.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/projet_siot) by extension 'colcon_pkg'
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/projet_siot) by extensions ['colcon_meta']
+[2.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/projet_siot) by extension 'colcon_meta'
+[2.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/projet_siot) by extensions ['ros']
+[2.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/projet_siot) by extension 'ros'
+[2.994s] DEBUG:colcon.colcon_core.package_identification:Package 'src/projet_siot' with type 'ros.ament_python' and name 'projet_siot'
+[2.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_icm20948) by extensions ['ignore', 'ignore_ament_install']
+[2.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_icm20948) by extension 'ignore'
+[2.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_icm20948) by extension 'ignore_ament_install'
+[2.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_icm20948) by extensions ['colcon_pkg']
+[2.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_icm20948) by extension 'colcon_pkg'
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_icm20948) by extensions ['colcon_meta']
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_icm20948) by extension 'colcon_meta'
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_icm20948) by extensions ['ros']
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_icm20948) by extension 'ros'
+[3.005s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_icm20948' with type 'ros.ament_python' and name 'ros2_icm20948'
+[3.006s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.006s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.006s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.266s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/insa/ros2_ws/install
+[3.281s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 319 installed packages in /opt/ros/humble
+[3.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.716s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_ros2' build argument 'cmake_args' from command line to 'None'
+[3.716s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_ros2' build argument 'cmake_target' from command line to 'None'
+[3.717s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.717s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[3.718s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[3.718s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[3.719s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[3.719s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[3.719s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.719s] DEBUG:colcon.colcon_core.verb:Building package 'ldlidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/insa/ros2_ws/build/ldlidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/insa/ros2_ws/install/ldlidar_ros2', 'merge_install': False, 'path': '/home/insa/ros2_ws/src/ldlidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[3.722s] Level 5:colcon.colcon_core.verb:set package 'projet_siot' build argument 'cmake_args' from command line to 'None'
+[3.722s] Level 5:colcon.colcon_core.verb:set package 'projet_siot' build argument 'cmake_target' from command line to 'None'
+[3.723s] Level 5:colcon.colcon_core.verb:set package 'projet_siot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.723s] Level 5:colcon.colcon_core.verb:set package 'projet_siot' build argument 'cmake_clean_cache' from command line to 'False'
+[3.723s] Level 5:colcon.colcon_core.verb:set package 'projet_siot' build argument 'cmake_clean_first' from command line to 'False'
+[3.723s] Level 5:colcon.colcon_core.verb:set package 'projet_siot' build argument 'cmake_force_configure' from command line to 'False'
+[3.723s] Level 5:colcon.colcon_core.verb:set package 'projet_siot' build argument 'ament_cmake_args' from command line to 'None'
+[3.723s] Level 5:colcon.colcon_core.verb:set package 'projet_siot' build argument 'catkin_cmake_args' from command line to 'None'
+[3.724s] Level 5:colcon.colcon_core.verb:set package 'projet_siot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.724s] DEBUG:colcon.colcon_core.verb:Building package 'projet_siot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/insa/ros2_ws/build/projet_siot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/insa/ros2_ws/install/projet_siot', 'merge_install': False, 'path': '/home/insa/ros2_ws/src/projet_siot', 'symlink_install': False, 'test_result_base': None}
+[3.726s] Level 5:colcon.colcon_core.verb:set package 'ros2_icm20948' build argument 'cmake_args' from command line to 'None'
+[3.727s] Level 5:colcon.colcon_core.verb:set package 'ros2_icm20948' build argument 'cmake_target' from command line to 'None'
+[3.727s] Level 5:colcon.colcon_core.verb:set package 'ros2_icm20948' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.727s] Level 5:colcon.colcon_core.verb:set package 'ros2_icm20948' build argument 'cmake_clean_cache' from command line to 'False'
+[3.728s] Level 5:colcon.colcon_core.verb:set package 'ros2_icm20948' build argument 'cmake_clean_first' from command line to 'False'
+[3.728s] Level 5:colcon.colcon_core.verb:set package 'ros2_icm20948' build argument 'cmake_force_configure' from command line to 'False'
+[3.729s] Level 5:colcon.colcon_core.verb:set package 'ros2_icm20948' build argument 'ament_cmake_args' from command line to 'None'
+[3.729s] Level 5:colcon.colcon_core.verb:set package 'ros2_icm20948' build argument 'catkin_cmake_args' from command line to 'None'
+[3.729s] Level 5:colcon.colcon_core.verb:set package 'ros2_icm20948' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.730s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_icm20948' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/insa/ros2_ws/build/ros2_icm20948', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/insa/ros2_ws/install/ros2_icm20948', 'merge_install': False, 'path': '/home/insa/ros2_ws/src/ros2_icm20948', 'symlink_install': False, 'test_result_base': None}
+[3.732s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.740s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.742s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/insa/ros2_ws/src/ldlidar_ros2' with build type 'ament_cmake'
+[3.743s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/insa/ros2_ws/src/ldlidar_ros2'
+[3.761s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.763s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.763s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.809s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/insa/ros2_ws/src/projet_siot' with build type 'ament_python'
+[3.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('projet_siot', 'ament_prefix_path')
+[3.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/insa/ros2_ws/install/projet_siot/share/projet_siot/hook/ament_prefix_path.ps1'
+[3.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/insa/ros2_ws/install/projet_siot/share/projet_siot/hook/ament_prefix_path.dsv'
+[3.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/insa/ros2_ws/install/projet_siot/share/projet_siot/hook/ament_prefix_path.sh'
+[3.842s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.843s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.888s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/insa/ros2_ws/src/ros2_icm20948' with build type 'ament_python'
+[3.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_icm20948', 'ament_prefix_path')
+[3.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/insa/ros2_ws/install/ros2_icm20948/share/ros2_icm20948/hook/ament_prefix_path.ps1'
+[3.899s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/insa/ros2_ws/install/ros2_icm20948/share/ros2_icm20948/hook/ament_prefix_path.dsv'
+[3.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/insa/ros2_ws/install/ros2_icm20948/share/ros2_icm20948/hook/ament_prefix_path.sh'
+[3.910s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.911s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/insa/ros2_ws/build/ldlidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/insa/ros2_ws/install/ros2_icm20948:/home/insa/ros2_ws/install/projet_siot:/opt/ros/humble /usr/bin/cmake --build /home/insa/ros2_ws/build/ldlidar_ros2 -- -j4 -l4
+[8.324s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/insa/ros2_ws/src/projet_siot'
+[8.326s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.327s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.363s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/insa/ros2_ws/src/ros2_icm20948'
+[12.372s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.373s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/insa/ros2_ws/build/ldlidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/insa/ros2_ws/install/ros2_icm20948:/home/insa/ros2_ws/install/projet_siot:/opt/ros/humble /usr/bin/cmake --build /home/insa/ros2_ws/build/ldlidar_ros2 -- -j4 -l4
+[12.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/insa/ros2_ws/build/ldlidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/insa/ros2_ws/install/ros2_icm20948:/home/insa/ros2_ws/install/projet_siot:/opt/ros/humble /usr/bin/cmake --install /home/insa/ros2_ws/build/ldlidar_ros2
+[12.971s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_ros2)
+[12.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/insa/ros2_ws/build/ldlidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/insa/ros2_ws/install/ros2_icm20948:/home/insa/ros2_ws/install/projet_siot:/opt/ros/humble /usr/bin/cmake --install /home/insa/ros2_ws/build/ldlidar_ros2
+[13.018s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ldlidar_ros2' for CMake module files
+[13.026s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ldlidar_ros2' for CMake config files
+[13.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_ros2', 'cmake_prefix_path')
+[13.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/hook/cmake_prefix_path.ps1'
+[13.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/hook/cmake_prefix_path.dsv'
+[13.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/hook/cmake_prefix_path.sh'
+[13.100s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ldlidar_ros2/lib'
+[13.114s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ldlidar_ros2/bin'
+[13.115s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ldlidar_ros2/lib/pkgconfig/ldlidar_ros2.pc'
+[13.118s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ldlidar_ros2/lib/python3.10/site-packages'
+[13.121s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ldlidar_ros2/bin'
+[13.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.ps1'
+[13.152s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.dsv'
+[13.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.sh'
+[13.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.bash'
+[13.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.zsh'
+[13.237s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/insa/ros2_ws/install/ldlidar_ros2/share/colcon-core/packages/ldlidar_ros2)
+[13.256s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_ros2)
+[13.259s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ldlidar_ros2' for CMake module files
+[13.269s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ldlidar_ros2' for CMake config files
+[13.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_ros2', 'cmake_prefix_path')
+[13.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/hook/cmake_prefix_path.ps1'
+[13.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/hook/cmake_prefix_path.dsv'
+[13.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/hook/cmake_prefix_path.sh'
+[13.352s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ldlidar_ros2/lib'
+[13.354s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ldlidar_ros2/bin'
+[13.354s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ldlidar_ros2/lib/pkgconfig/ldlidar_ros2.pc'
+[13.359s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ldlidar_ros2/lib/python3.10/site-packages'
+[13.366s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ldlidar_ros2/bin'
+[13.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.ps1'
+[13.390s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.dsv'
+[13.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.sh'
+[13.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.bash'
+[13.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/insa/ros2_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.zsh'
+[13.436s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/insa/ros2_ws/install/ldlidar_ros2/share/colcon-core/packages/ldlidar_ros2)
+[19.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/insa/ros2_ws/src/projet_siot': PYTHONPATH=/home/insa/ros2_ws/build/projet_siot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/projet_siot build --build-base /home/insa/ros2_ws/build/projet_siot/build install --record /home/insa/ros2_ws/build/projet_siot/install.log --single-version-externally-managed install_data
+[20.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/insa/ros2_ws/src/ros2_icm20948': PYTHONPATH=/home/insa/ros2_ws/build/ros2_icm20948/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/insa/ros2_ws/install/ros2_icm20948/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_icm20948 build --build-base /home/insa/ros2_ws/build/ros2_icm20948/build install --record /home/insa/ros2_ws/build/ros2_icm20948/install.log --single-version-externally-managed install_data
+[26.236s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/projet_siot' for CMake module files
+[26.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/insa/ros2_ws/src/projet_siot' returned '0': PYTHONPATH=/home/insa/ros2_ws/build/projet_siot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/projet_siot build --build-base /home/insa/ros2_ws/build/projet_siot/build install --record /home/insa/ros2_ws/build/projet_siot/install.log --single-version-externally-managed install_data
+[26.260s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/projet_siot' for CMake config files
+[26.266s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/projet_siot/lib'
+[26.267s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/projet_siot/bin'
+[26.268s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/projet_siot/lib/pkgconfig/projet_siot.pc'
+[26.287s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages'
+[26.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('projet_siot', 'pythonpath')
+[26.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/insa/ros2_ws/install/projet_siot/share/projet_siot/hook/pythonpath.ps1'
+[26.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/insa/ros2_ws/install/projet_siot/share/projet_siot/hook/pythonpath.dsv'
+[26.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/insa/ros2_ws/install/projet_siot/share/projet_siot/hook/pythonpath.sh'
+[26.339s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/projet_siot/bin'
+[26.340s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(projet_siot)
+[26.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/insa/ros2_ws/install/projet_siot/share/projet_siot/package.ps1'
+[26.369s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/insa/ros2_ws/install/projet_siot/share/projet_siot/package.dsv'
+[26.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/insa/ros2_ws/install/projet_siot/share/projet_siot/package.sh'
+[26.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/insa/ros2_ws/install/projet_siot/share/projet_siot/package.bash'
+[26.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/insa/ros2_ws/install/projet_siot/share/projet_siot/package.zsh'
+[26.421s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/insa/ros2_ws/install/projet_siot/share/colcon-core/packages/projet_siot)
+[27.772s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ros2_icm20948' for CMake module files
+[27.778s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ros2_icm20948' for CMake config files
+[27.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/insa/ros2_ws/src/ros2_icm20948' returned '0': PYTHONPATH=/home/insa/ros2_ws/build/ros2_icm20948/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/insa/ros2_ws/install/ros2_icm20948/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_icm20948 build --build-base /home/insa/ros2_ws/build/ros2_icm20948/build install --record /home/insa/ros2_ws/build/ros2_icm20948/install.log --single-version-externally-managed install_data
+[27.798s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ros2_icm20948/lib'
+[27.801s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ros2_icm20948/bin'
+[27.802s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ros2_icm20948/lib/pkgconfig/ros2_icm20948.pc'
+[27.804s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ros2_icm20948/lib/python3.10/site-packages'
+[27.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_icm20948', 'pythonpath')
+[27.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/insa/ros2_ws/install/ros2_icm20948/share/ros2_icm20948/hook/pythonpath.ps1'
+[27.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/insa/ros2_ws/install/ros2_icm20948/share/ros2_icm20948/hook/pythonpath.dsv'
+[27.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/insa/ros2_ws/install/ros2_icm20948/share/ros2_icm20948/hook/pythonpath.sh'
+[27.826s] Level 1:colcon.colcon_core.environment:checking '/home/insa/ros2_ws/install/ros2_icm20948/bin'
+[27.826s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_icm20948)
+[27.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/insa/ros2_ws/install/ros2_icm20948/share/ros2_icm20948/package.ps1'
+[27.840s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/insa/ros2_ws/install/ros2_icm20948/share/ros2_icm20948/package.dsv'
+[27.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/insa/ros2_ws/install/ros2_icm20948/share/ros2_icm20948/package.sh'
+[27.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/insa/ros2_ws/install/ros2_icm20948/share/ros2_icm20948/package.bash'
+[27.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/insa/ros2_ws/install/ros2_icm20948/share/ros2_icm20948/package.zsh'
+[27.871s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/insa/ros2_ws/install/ros2_icm20948/share/colcon-core/packages/ros2_icm20948)
+[27.877s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[27.879s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[27.880s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[27.881s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[27.942s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[27.943s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[27.944s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[28.117s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[28.119s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/insa/ros2_ws/install/local_setup.ps1'
+[28.135s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/insa/ros2_ws/install/_local_setup_util_ps1.py'
+[28.152s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/insa/ros2_ws/install/setup.ps1'
+[28.170s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/insa/ros2_ws/install/local_setup.sh'
+[28.191s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/insa/ros2_ws/install/_local_setup_util_sh.py'
+[28.198s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/insa/ros2_ws/install/setup.sh'
+[28.209s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/insa/ros2_ws/install/local_setup.bash'
+[28.216s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/insa/ros2_ws/install/setup.bash'
+[28.236s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/insa/ros2_ws/install/local_setup.zsh'
+[28.245s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/insa/ros2_ws/install/setup.zsh'

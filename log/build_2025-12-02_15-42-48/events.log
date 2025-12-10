@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.001600] (-) JobUnselected: {'identifier': 'ldlidar_ros2'}
+[0.001876] (-) JobUnselected: {'identifier': 'projet_siot'}
+[0.002042] (-) JobUnselected: {'identifier': 'ros2_icm20948'}
+[0.006346] (-) EventReactorShutdown: {}

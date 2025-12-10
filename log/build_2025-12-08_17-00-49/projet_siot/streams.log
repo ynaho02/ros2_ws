@@ -1,0 +1,22 @@
+[5.563s] Invoking command in '/home/insa/ros2_ws/src/projet_siot': PYTHONPATH=/home/insa/ros2_ws/build/projet_siot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/projet_siot build --build-base /home/insa/ros2_ws/build/projet_siot/build install --record /home/insa/ros2_ws/build/projet_siot/install.log --single-version-externally-managed install_data
+[7.142s] running egg_info
+[7.144s] writing ../../build/projet_siot/projet_siot.egg-info/PKG-INFO
+[7.146s] writing dependency_links to ../../build/projet_siot/projet_siot.egg-info/dependency_links.txt
+[7.148s] writing entry points to ../../build/projet_siot/projet_siot.egg-info/entry_points.txt
+[7.150s] writing requirements to ../../build/projet_siot/projet_siot.egg-info/requires.txt
+[7.151s] writing top-level names to ../../build/projet_siot/projet_siot.egg-info/top_level.txt
+[7.158s] reading manifest file '../../build/projet_siot/projet_siot.egg-info/SOURCES.txt'
+[7.169s] writing manifest file '../../build/projet_siot/projet_siot.egg-info/SOURCES.txt'
+[7.171s] running build
+[7.172s] running build_py
+[7.174s] running install
+[7.176s] running install_lib
+[7.184s] running install_data
+[7.186s] copying launch/slam.launch.py -> /home/insa/ros2_ws/install/projet_siot/share/projet_siot/launch
+[7.187s] running install_egg_info
+[7.196s] removing '/home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages/projet_siot-0.0.0-py3.10.egg-info' (and everything under it)
+[7.198s] Copying ../../build/projet_siot/projet_siot.egg-info to /home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages/projet_siot-0.0.0-py3.10.egg-info
+[7.206s] running install_scripts
+[7.319s] Installing lidar_data_processing script to /home/insa/ros2_ws/install/projet_siot/lib/projet_siot
+[7.322s] writing list of installed files to '/home/insa/ros2_ws/build/projet_siot/install.log'
+[7.573s] Invoked command in '/home/insa/ros2_ws/src/projet_siot' returned '0': PYTHONPATH=/home/insa/ros2_ws/build/projet_siot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/insa/ros2_ws/install/projet_siot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/projet_siot build --build-base /home/insa/ros2_ws/build/projet_siot/build install --record /home/insa/ros2_ws/build/projet_siot/install.log --single-version-externally-managed install_data

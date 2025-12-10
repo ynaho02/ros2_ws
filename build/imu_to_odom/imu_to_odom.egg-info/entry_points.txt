@@ -1,0 +1,3 @@
+[console_scripts]
+imu_to_odom = imu_to_odom.imu_to_odom:main
+

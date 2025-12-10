@@ -1,0 +1,25 @@
+[6.777s] Invoking command in '/home/insa/ros2_ws/src/ros2_icm20948': PYTHONPATH=/home/insa/ros2_ws/build/ros2_icm20948/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/insa/ros2_ws/install/ros2_icm20948/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_icm20948 build --build-base /home/insa/ros2_ws/build/ros2_icm20948/build install --record /home/insa/ros2_ws/build/ros2_icm20948/install.log --single-version-externally-managed install_data
+[8.494s] running egg_info
+[8.504s] writing ../../build/ros2_icm20948/ros2_icm20948.egg-info/PKG-INFO
+[8.507s] writing dependency_links to ../../build/ros2_icm20948/ros2_icm20948.egg-info/dependency_links.txt
+[8.511s] writing entry points to ../../build/ros2_icm20948/ros2_icm20948.egg-info/entry_points.txt
+[8.513s] writing requirements to ../../build/ros2_icm20948/ros2_icm20948.egg-info/requires.txt
+[8.515s] writing top-level names to ../../build/ros2_icm20948/ros2_icm20948.egg-info/top_level.txt
+[8.537s] reading manifest file '../../build/ros2_icm20948/ros2_icm20948.egg-info/SOURCES.txt'
+[8.545s] writing manifest file '../../build/ros2_icm20948/ros2_icm20948.egg-info/SOURCES.txt'
+[8.550s] running build
+[8.552s] running build_py
+[8.555s] copying ros2_icm20948/imu_to_odom.py -> /home/insa/ros2_ws/build/ros2_icm20948/build/lib/ros2_icm20948
+[8.566s] running install
+[8.569s] running install_lib
+[8.587s] copying /home/insa/ros2_ws/build/ros2_icm20948/build/lib/ros2_icm20948/imu_to_odom.py -> /home/insa/ros2_ws/install/ros2_icm20948/lib/python3.10/site-packages/ros2_icm20948
+[8.607s] byte-compiling /home/insa/ros2_ws/install/ros2_icm20948/lib/python3.10/site-packages/ros2_icm20948/imu_to_odom.py to imu_to_odom.cpython-310.pyc
+[8.610s] running install_data
+[8.613s] running install_egg_info
+[8.626s] removing '/home/insa/ros2_ws/install/ros2_icm20948/lib/python3.10/site-packages/ros2_icm20948-0.0.1-py3.10.egg-info' (and everything under it)
+[8.630s] Copying ../../build/ros2_icm20948/ros2_icm20948.egg-info to /home/insa/ros2_ws/install/ros2_icm20948/lib/python3.10/site-packages/ros2_icm20948-0.0.1-py3.10.egg-info
+[8.648s] running install_scripts
+[8.779s] Installing icm20948_node script to /home/insa/ros2_ws/install/ros2_icm20948/lib/ros2_icm20948
+[8.780s] Installing imu_to_odom script to /home/insa/ros2_ws/install/ros2_icm20948/lib/ros2_icm20948
+[8.784s] writing list of installed files to '/home/insa/ros2_ws/build/ros2_icm20948/install.log'
+[8.944s] Invoked command in '/home/insa/ros2_ws/src/ros2_icm20948' returned '0': PYTHONPATH=/home/insa/ros2_ws/build/ros2_icm20948/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/insa/ros2_ws/install/ros2_icm20948/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_icm20948 build --build-base /home/insa/ros2_ws/build/ros2_icm20948/build install --record /home/insa/ros2_ws/build/ros2_icm20948/install.log --single-version-externally-managed install_data
