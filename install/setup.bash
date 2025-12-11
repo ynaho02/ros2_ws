@@ -29,3 +29,5 @@ _colcon_prefix_chain_bash_source_script "$COLCON_CURRENT_PREFIX/local_setup.bash
 
 unset COLCON_CURRENT_PREFIX
 unset _colcon_prefix_chain_bash_source_script
+
+export ROS_DOMAIN_ID=8
